@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.product-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    background: #f9f9f9;
+}
+
+.product-image {
+    width: 100px;
+    height: auto;
+    margin-right: 15px;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.like {
+    color: black; /* Default state */
+}
+
+.liked {
+    color: red; /* Liked state */
+}
+
+.total-container {
+    margin-top: 20px;
+}

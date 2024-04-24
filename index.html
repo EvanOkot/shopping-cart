@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shopping Cart</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="product-card">
+    <div class="cart-item" data-price="15.99">
+    <span class="item-name">T-shirt</span>
+    <img src="Images/T-Shirt.jpeg" alt="T-shirt">
+    <button class="decrease">-</button>
+    <span class="quantity">1</span>
+    <button class="increase">+</button>
+    <button class="delete">Delete</button>
+    <button class="like">&#10084;</button>
+    </div>
+</div>
+
+<div class="product-card">
+    <div class="cart-item" data-price="23.50">
+    <span class="item-name">Hoodie</span>
+    <img src="Images/Hoodie.webp" alt="Hoodie">
+    <button class="decrease">-</button>
+    <span class="quantity">1</span>
+    <button class="increase">+</button>
+    <button class="delete">Delete</button>
+    <button class="like">&#10084;</button>
+    </div>
+</div>
+
+<div class="product-card">
+    <div class="cart-item" data-price="9.99">
+    <span class="item-name">Cap</span>
+    <img src="Images/cap.jpeg" alt="Cap">
+    <button class="decrease">-</button>
+    <span class="quantity">1</span>
+    <button class="increase">+</button>
+    <button class="delete">Delete</button>
+    <button class="like">&#10084;</button>
+    </div>
+</div>
+
+    <div class="total-container">
+    Total Price: $<span id="total-price">0</span>
+    </div>
+<script src="cart.js"></script>
+</body>
+</html>
